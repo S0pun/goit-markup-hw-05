@@ -520,10 +520,13 @@ img {
 }
 
 .footer-form {
-  display: flex;
-  gap: 24px;
   max-width: 453px;
 }
+
+.footer-forms-icon {
+  margin-left: 16px
+}
+
 
 .subscribe-subtitle {
   font-weight: 500;
@@ -540,18 +543,19 @@ img {
   border: 1px solid #fff;
   background-color: transparent;
   font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
+  line-height: 2;
+  letter-spacing: 0.04em;
   padding-left: 16px;
   width: 264px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
 }
 
 input::placeholder {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color:#ffffff;;
   width: 264px;
 }
 
