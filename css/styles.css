@@ -514,19 +514,17 @@ img {
 
 .footer-forms-container {
   margin-left: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer-form {
+  display: flex;
+  gap: 24px;
   max-width: 453px;
 }
 
 .footer-forms-icon {
   margin-left: 16px
 }
-
 
 .subscribe-subtitle {
   font-weight: 500;
@@ -665,7 +663,7 @@ input::placeholder {
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-item {
@@ -712,7 +710,7 @@ input::placeholder {
   color: #8e8f99;
   line-height: 1.17;
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 4px;
 }
 
 .modal-input-icon {
@@ -744,11 +742,13 @@ input::placeholder {
   border-color: #4D5AE5;
 }
 
-.modal-check {
+.check-field {
   margin-bottom: 24px;
 }
 
+.modal-check {
 
+}
 
 .check-text {
   font-size: 12px;
