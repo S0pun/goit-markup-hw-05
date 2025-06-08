@@ -644,7 +644,8 @@ input::placeholder {
   border: none;
 }
 
-.modal-close:hover, .modal-close:focus .modal-close-icon {
+.modal-close:hover, .modal-close:focus
+ .modal-close-icon {
   fill: #fff;
 }
 
