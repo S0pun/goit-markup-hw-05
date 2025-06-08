@@ -727,6 +727,10 @@ input::placeholder {
   position: relative;
 }
 
+.comment-field {
+  margin-bottom: 16px;
+}
+
 .modal-textarea {
   height: 120px;
   resize: none;
